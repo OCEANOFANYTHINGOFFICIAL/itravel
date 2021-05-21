@@ -1,0 +1,20 @@
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 23px;
+    font-size: 44px;
+}
+h3{
+    text-align: center;
+    margin: auto;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+img{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}

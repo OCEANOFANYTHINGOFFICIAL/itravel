@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),
+                                      rgba(0,0,0,0.1)),
+                                        url('../images/img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav{
+    height: 15vh;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+.navitemhover{
+    transition: all .5s ease;
+}
+.navitemhover:hover{
+    color: #05c1c8;
+}
+.logo{
+    width: 25%;
+    text-align: center;
+}
+.logo h1{
+    font-family: 'Pattaya', sans-serif;
+    font-weight: lighter;
+}
+.logohover{
+    transition: all .5s ease;
+    cursor: none;
+}
+.logohover:hover{
+    color: #05c1c8;
+}
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.menu a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+.menu a:first-child{
+    color: #05c1c8;
+}
+/* .navitemhover-home{
+    color: #05c1c8;
+    transition: all .5s ease;
+} */
+.navitemhover-home:hover{
+    color: #fff;
+}
+main{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+main section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 25px;
+    color: #eee;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    margin: 0 9px;
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+.btn-1{
+    background: #fff;
+    color: #000;
+}
+.btn-1:hover{
+    background: #05c1c8;
+    color: #fff;
+}
+.btn-2{
+    background: #05c1c8;
+    color: #fff;
+}
+.btn-2:hover{
+    background: #fff;
+    color: #000;
+}
+.change_content::after{
+    content: '';
+    animation: change_txt 70s linear infinite;
+    color: #05c81f;
+}
+@keyframes change_txt {
+    0%{
+        content: "Kashmir";
+    }
+    5%{
+        content: "Ladakh";
+    }
+    10%{
+        content: "Delhi";
+    }
+    15%{
+        content: "Sikim";
+    }
+    20%{
+        content: "Meghalaya";
+    }
+    25%{
+        content: "Kerala";
+    }
+    30%{
+        content: "Andaman";
+    }
+    35%{
+        content: "Goa";
+    }
+    40%{
+        content: "Agra";
+    }
+    45%{
+        content: "Varanasi";
+    }
+    45%{
+        content: "Jaisalmer";
+    }
+    50%{
+        content: "Rann of Kutch";
+    }
+    55%{
+        content: "Aurangabad";
+    }
+    60%{
+        content: "Sunderbans";
+    }
+    65%{
+        content: "Hampi";
+    }
+    70%{
+        content: "Mysore";
+    }
+    75%{
+        content: "Kaziranga";
+    }
+    80%{
+        content: "Rishikesh";
+    }
+    85%{
+        content: "Jaipur";
+    }
+    90%{
+        content: "Amritsar";
+    }
+    95%{
+        content: "Darjeeling";
+    }
+    100%{
+        content: "Mumbai";
+    }
+
+}

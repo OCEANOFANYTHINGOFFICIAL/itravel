@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),
+                                      rgba(0,0,0,0.4)),
+                                        url('../images/contact_form_submitted.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    padding: 23px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+}
+p{
+    padding: 23px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 30px 0 20px 0;
+    font-size: 22px;
+    font-weight: 700;
+    word-spacing: 3px;
+    text-shadow: 2px 1px 5px black;
+}
+span{
+    color: #fa6b6b;
+    font-size: 55px;
+    padding: 23px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin-top: 43px;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+}
+.button a{
+    margin: 9 15px 43px 43px;
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+.button .btn{
+    background: #05f786;
+    color: #fff;
+}

@@ -1,0 +1,143 @@
+/* default style open */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* default style close */
+
+/* container open */
+html{
+
+    background-image: linear-gradient(rgba(0,0,0,0.3),
+                                      rgba(0,0,0,0.1)),
+                                        url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+/* container close */
+
+/* container h1,p open  */
+
+.container h1{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+/* container h1,p close  */
+select,option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+}
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 6px;
+    outline: none;
+    font-size: 36px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+}
+/* p open  */
+
+p{
+    font-size: 17px;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+}
+/* p close */
+
+/* input,textarea open  */
+
+input,textarea{
+    /* display: block; */
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+}
+
+/* input,textarea close */
+/* form start  */
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* form close */
+/* btn class start */
+.btn{
+    margin-top: 15px;
+    color: white;
+    background: #05c1c8;
+    text-decoration: none;
+    outline: none;
+    padding: 12px 22px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+    text-shadow: 2px 1px 5px black;
+}
+#submit{
+    padding: 12px 40px;
+    text-align: center;
+    justify-content: center;
+}
+#reset{
+    padding: 12px 23px;
+    text-align: center;
+    justify-content: center;
+}
+.btn::before{
+    text-shadow: 2px 1px 5px black;
+}
+/* btn class close */
+.btn:hover{
+    background: #fff;
+    color: #000;
+    text-shadow: 2px 1px 5px white;
+}
+/* bg class start */
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+/* bg class close */
+/* submitmsg class open */
+.submitmsg{
+    color: green;
+    text-align: center;
+}
+/* submitmsg class close  */
